@@ -1,10 +1,95 @@
-.heading {
-    font-size: 46px;
-    color: dodgerblue;
-    text-align: center;
-    padding: 0.5em;
+html, body {
+    padding: 0;
+    margin: 0;
 }
-.text {
+body {
     font-size: 16px;
-    color: #333;
+}
+* {
+    box-sizing: border-box;
+}
+.main-nav {
+    margin-bottom: 20px;
+}
+.main-nav-list {
+    padding: 0;
+    list-style: none;
+}
+.main-nav-item {
+    display: inline-block;
+    margin-left: 42px;
+}
+.main-logo {
+    color: rgba(34, 33, 33, 0.63);
+    display: inline-block;
+    margin-right: 200px;
+    text-decoration: none;
+    font-size: 48px;
+    
+}
+.main-nav-item a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.main-nav-item.active a {
+    color:34547a;
+}
+.main-heading {
+    background-color: rgb(231, 224, 224);
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align:center;
+}
+.main-center {
+    background-color: rgb(231, 224, 224);
+    padding-top: 2em;
+    padding-bottom: 6em;
+    text-align:center;
+}
+.block-one {
+    display: inline-block;
+}
+.main-h {
+    list-style: none;
+    text-align: left;
+}
+.main-chapter-theme {
+    text-align: left;
+}
+.main-chapter-text {
+    padding-left: 0px;
+}
+.main-button a {
+    text-transform: uppercase;
+    background-color: rgb(27, 2, 73);
+    display: inline-block;
+    color:white;
+    padding: 10px;
+    border: black;
+    text-decoration: none;
+}
+.main-dno {
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 1em;
+}
+.main-dno h2 {
+    padding-bottom: 0;
+}
+.main-foot {
+    background-color: rgb(37, 37, 92);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+.foot {
+    color: white;
+    display: inline-block;
+    margin-left: 84px;
+    text-align: left;
+}
+figcaption {
+    text-align: right;
 }
