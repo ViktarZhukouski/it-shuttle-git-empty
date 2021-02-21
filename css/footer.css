@@ -1,0 +1,18 @@
+.finish {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #34547A;
+}
+.ivan, .autor {
+    color: white;
+    font: 1em sans-serif;
+    padding-left: 230px;
+}
+.autor {
+    font-size: 10px;
+}
+.vk {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 230px;
+}

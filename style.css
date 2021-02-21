@@ -34,7 +34,7 @@ body {
     font-size: 1rem;
 }
 .main-nav-item.active a {
-    color:34547a;
+    color: blue;
 }
 .main-heading {
     background-color: rgb(231, 224, 224);
@@ -80,13 +80,7 @@ body {
     text-align: center;
 }
 .foot {
-    color: white;
     display: inline-block;
-    margin-left: 84px;
-    text-align: left;
-}
-figcaption {
-    text-align: left;
 }
 .photo-navyk {
     background-color: white;
@@ -118,3 +112,11 @@ figcaption {
     padding-top: 1em;
     text-align: center;
 }
+.my-video {
+    text-align: center;
+    padding-bottom: 2em;
+}
+@import "./css/posters.css";
+@import "./css/win-reclama.css";
+@import "./css/my-order.css";
+@import "./css/footer.css";

@@ -1,0 +1,28 @@
+form {
+    background-color: rgb(231, 224, 224);
+    padding: bottom 0;;   
+}
+.my-site {
+    text-align: center;
+    padding-top: 2em;
+}
+.enter input{
+    width: 350;
+    height: 50px;
+}
+.textarea textarea{
+    width: 540px;
+    height: 175px;
+}
+.button button{
+    background-color: #34547A;
+    color: white;
+    width: 190px;
+    height: 55px;
+}
+.enter, .textarea, .button {
+    padding-top: 0,5em;
+    padding-bottom: 1em;
+    text-align: center;
+    
+}
