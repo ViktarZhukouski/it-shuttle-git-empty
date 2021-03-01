@@ -1,0 +1,41 @@
+.form-mail {
+    text-align: center;
+    padding-bottom: 3em;
+    background-color: white;
+}
+.form-text-big {
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.form-text-little, .last {
+    font-size: 12px;
+    color: rgb(92, 91, 91);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.mail-input, .signature-input {
+    display: inline-block;
+}
+.email, .button {
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    border: none;
+    height: 3em;
+}
+.button { 
+    background-color: cornflowerblue;
+    color: white;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.email {
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+}
+.form-mail-input {
+    display: inline-block;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 25px;
+    box-shadow: rgba(73, 73, 73, 1) 0px 0px 5px, inset rgba(73, 73, 73, 1) 0px 0px 2px;
+}

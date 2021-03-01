@@ -1,0 +1,39 @@
+.top-standart {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(229, 234, 241);
+    display: flex;
+    justify-content: space-around;
+}
+.top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top-text-big {
+    padding-bottom: 1em;
+    font-size: 22px;
+    font-weight: 800;
+}
+.top-text-small {
+    padding-bottom: 1em;
+    font-size: 12px;
+}
+.top-text-link {
+    color: cornflowerblue;
+    font-size: 11px;
+}
+.top-standart-img img {
+    border-radius: 25px;
+}
+.hr-line {
+    position: absolute;
+    width: 85%;
+    height: 0px;
+    left: 90px;
+}
+.our-project {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}

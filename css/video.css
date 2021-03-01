@@ -1,0 +1,24 @@
+.video {
+    background-image:url(/projects/it-shuttle-git-empty/img/first-back-shot.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.video-content {
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-chapter {
+    color: white;
+    text-align: center;
+}
+.text-big {
+    font-size: 22px;
+    font-weight: 700;
+}
+.hr-line-video {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    width: 65%;
+}

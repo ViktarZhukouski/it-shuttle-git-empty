@@ -1,0 +1,28 @@
+.corparation {
+    /*width: 100%;*/
+    height: 400px;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corparation-big {
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+.corparation-small {
+    color: rgb(65, 61, 61);
+    font-size: 12px;
+    padding-top: 2em;
+    text-align: center;
+}
+.logo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+}
+.logo-letter {
+    text-align: left;
+}
