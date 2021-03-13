@@ -1,0 +1,83 @@
+.our-services {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(237, 244, 245);
+}
+.services-big, .services-little {
+    text-align: center;
+    text-transform: uppercase;
+}
+.services-big {
+    font-family: "Roboto", sans-serif;
+}
+.galery-services {
+    padding-top: 3em;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr;
+    grid-row: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.galery-services-item {
+    text-align: center;
+    width: 100%;
+    height: 56vh;
+    background-color: rgb(21, 247, 247);
+}
+.galery-services-item:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-image: url('../img/os2.png');
+}
+.galery-services-item:nth-child(1):hover {
+    background-image: url('../img/os1.png');
+    /*background-color: rgba(21, 247, 247, 0.5);*/
+}
+.galery-services-item:nth-child(2) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url('../img/os2.png');
+}
+.galery-services-item:nth-child(2):hover {
+    background-image:none;
+    background-color: rgba(21, 247, 247, 0.5);
+}
+.galery-services-item:nth-child(3) {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-image: url('../img/os3.png');
+}
+.galery-services-item:nth-child(3):hover {
+    background-image:none;
+    background-color: rgba(21, 247, 247, 0.5);
+}
+.galery-services-item:nth-child(4) {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url('../img/os4.png');
+}
+.galery-services-item:nth-child(4):hover {
+    background-image:none;
+    background-color: rgba(21, 247, 247, 0.5);
+}
+.galery-services-item:nth-child(5) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url('../img/os5.png');
+}
+.galery-services-item:nth-child(5):hover {
+    background-image:none;
+    background-color: rgba(21, 247, 247, 0.5);
+}
+.galery-services-item:nth-child(6) {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-image: url('../img/os6.png');
+}
+.galery-services-item:nth-child(6):hover {
+    background-image:none;
+    background-color: rgba(21, 247, 247, 0.5);
+}

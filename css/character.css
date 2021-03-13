@@ -1,0 +1,31 @@
+.galery-smallteam-item .al-rayhan-ui {
+    position: relative;
+    opacity: 0;
+}
+.galery-smallteam-item:hover .al-rayhan-ui {
+    opacity: 1;
+    display: inline-block;
+}
+.al-rayhan-ui {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    width: 70%;
+    background: rgb(111, 240, 229);
+    padding: 1em;
+}
+.al-rayhan-job {
+    text-transform: lowercase;
+}
+.al-rayhan-ui:after {
+    content: "";
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid rgb(111, 240, 229);
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    transform: translateX(-50%);
+}

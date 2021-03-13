@@ -1,25 +1,14 @@
-html, body {
-    padding: 0;
-    margin: 0;
-}
 body {
-    font-size: 16px;
-    font-family: Roboto, sans-serif;
-    font-size-adjust: 0.8;
-    background-image: url(/projects/it-shuttle-git-empty/img/first-back.png);
-    background-color:whitesmoke;
-    background-repeat: no-repeat;
-    background-size: 1560px 650px;
+    margin: 0px;
+    padding: 0px;
 }
-* {
-    box-sizing: border-box;
-}
-@import "./css/header.css";
-@import "./css/corparation.css";
-@import "./css/top-standart.css";
-@import "./css/our-special.css";
-@import "./css/our-code.css";
-@import "./css/video.css";
-@import "./css/form-mail.css";
-@import "./css/theend.css";
-@import "./css/switcher.css"
+@import "./css/start.css";
+@import "./css/slider.css";
+@import "./css/featured.css";
+@import "./css/our-services.css";
+@import "./css/small-team.css";
+@import "./css/theysays.css";
+@import "./css/character.css";
+@import "./css/sponsors.css";
+@import "./css/form-about.css";
+@import "./css/footer.css";

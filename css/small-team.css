@@ -1,0 +1,53 @@
+.small-team {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.smallteam-big, .smallteam-little {
+    text-align: center;
+    text-transform: uppercase;
+}
+.smallteam-big {
+    font-family: "Roboto", sans-serif;
+}
+.galery-smallteam {
+    padding-top: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap: 10px;
+}
+.galery-smallteam-item {
+    background-color: rgba(190, 189, 189, 0.5);
+    text-align: center;
+    width: 100%;
+    height: 63vh;
+    overflow: cover;
+}
+.galery-smallteam-item {
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: contain;
+}
+
+.galery-smallteam-item.al-rayhan {
+    background-image: url('../img/st16.png');
+}
+.galery-smallteam-item.person-two {
+    background-image: url('../img/st24.png');
+}
+.galery-smallteam-item.person-three {
+    background-image: url('../img/st3.png');
+}
+.galery-smallteam-item.person-four {
+    background-image: url('../img/st24.png');
+}
+.galery-smallteam-item.person-five {
+    background-image: url('../img/st5.png');
+}
+.galery-smallteam-item.person-six {
+    background-image: url('../img/st16.png');
+}
+
