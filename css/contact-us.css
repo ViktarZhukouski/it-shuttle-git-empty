@@ -1,0 +1,90 @@
+.contact-us {
+    padding: 3em 0 3em 0;
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+    font-family: 'Roboto-Medium', sans-serif;
+}
+.contact-us-main-chapter, .contact-us-little-chapter {
+    font-weight: 400;
+}
+.contact-us-chapter {
+    text-align: center;
+}
+.form-contact-us {
+    width: 30%;
+    padding: 3em 2em 1em 2em;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name-contact-us, .text-contact-us, .send-button {
+    padding: 1em;
+    margin-bottom: 3em;
+    background-color: rgba(245, 245, 245, 1);
+    border-color: transparent;
+    outline: none;
+}
+.name-contact-us, .send-button {
+    border-radius: 25px;
+}
+.text-contact-us {
+    height: 16vh;
+}
+.send-button {
+    background-color: rgba(239, 39, 121, 1);
+    color: white;
+    width: 30%;
+}
+.send-button:active {
+    color: navy;
+}
+.send-button:hover {
+    text-decoration: underline;
+}
+.contact-inf-social {
+    padding-left: 40px;
+    padding-top: 2em;
+}
+.contact-inf-social-img {
+    padding-right: 30px;
+}
+.contact-inf-item {
+    padding-bottom: 2em;
+    display: flex;
+    align-items: center;
+}
+.contact-inf-item-img {
+    width: 25px;
+}
+.contact-inf span {
+    padding-left: 5%;
+    font-size: 12px;
+}
+.contact-inf {
+    padding-top: 6em;
+    display: inline-block;
+    width: 30%;
+}
+.contact-us-content {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+@media only screen and (max-width:1024px) {
+    .contact-inf {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: start;
+    }
+    .contact-us-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}

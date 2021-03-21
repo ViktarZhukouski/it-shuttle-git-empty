@@ -1,0 +1,134 @@
+.figma-header {
+    font-family: 'Roboto-Light';
+    width: 100%;
+    padding-bottom: 12em;
+    background: url('../img/Rectangle1.png') 0 -70px no-repeat,
+                url('../img/Rectangle2.png') 0 10px no-repeat;
+    background-size: contain;
+    /*background:linear-gradient(20deg, rgba(239,39,121,1), rgba(120,52,190,1));*/
+}
+.we-focus-on {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.focus-buttons {
+    margin-top: 2.5em;
+    padding-left: 30px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 41px;
+}
+.main-menu {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+.main-menu:hover {
+    text-decoration: underline;
+}
+.input-subscribe {
+    margin-right: 2em;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.focus-input, .focus-subscribe {
+    margin-right: 1em;
+    height: 40px;
+}
+.main-input, .button-try, .main-subscribe {
+    padding: 1em 2em 1em 2em;
+    border: transparent;
+    border-radius: 25px;
+}
+.main-input:focus, .button-try:focus, .main-subscribe:focus {
+    outline: none;
+}
+.main-input.text {
+    width: 60px;
+}
+.main-subscribe {
+    background-color: white;
+    color: rgba(239,39,121,1);
+}
+.main-subscribe:active {
+    color: navy;
+}
+.browser {
+    margin-top: 4rem;
+    width: 740px;
+    height: 550px;
+    background-image: url('../img/browser1.png');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: cover;
+}
+.text-block {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+.browser-and-focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 90px;
+}
+
+.ergonomics, .most-calendars {
+    color: white;
+    font-family: 'Roboto-Light';
+}
+.ergonomics {
+    font-family: 'Roboto-Black';
+    font-weight: 900;
+}
+.most-calendars, .button-try {
+    font-weight: 700;
+}
+.button-try {
+    margin-top: 2em;
+    width: 170px;
+    padding: 1em 2em 1em 2em;
+    background-color: white;
+    color: rgba(56,163,241,1);
+}
+.button-try:hover {
+    color: navy;
+}
+.burger {
+    display: none;
+}
+@media only screen and (max-width:830px) {
+    .focus-buttons, .focus-input, .focus-subscribe {
+        display:none;
+    }
+    .burger {
+        padding-top: 1em;
+        display: block;
+    }
+    .browser-and-focus {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-block {
+        text-align: center;
+    }
+    .button-try {
+        background-color:  rgba(56,163,241,1);
+        color:white;
+    }
+    
+     
+}

@@ -1,0 +1,37 @@
+.lightning-fast-prototyping {
+    padding-bottom: 6em;
+    font-family: 'Roboto-Medium';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chupter-main, .chapter-most {
+    text-align: center;
+}
+.chupter-main h1, .chapter-most h5 {
+    font-weight: 400;
+}
+.lightning-image, .lightning-button {
+    padding: 4em 4em 0  4em;
+}
+.lightning-button-try {
+    border-radius: 25px;
+    border: none;
+    margin-top: 2em;
+    width: 170px;
+    padding: 1em 2em 1em 2em;
+    background-color: rgba(56,163,241,1);
+    color: white;
+}
+.lightning-button-try:hover {
+    color: navy;
+}
+.lightning-button-try:focus {
+    outline: none;
+}
+@media only screen and (max-width:830px) {
+    .lightning-image {
+        margin: 0 6em 0 6em;
+    }
+}

@@ -1,14 +1,33 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
 }
-@import "./css/start.css";
-@import "./css/slider.css";
-@import "./css/featured.css";
-@import "./css/our-services.css";
-@import "./css/small-team.css";
-@import "./css/theysays.css";
-@import "./css/character.css";
-@import "./css/sponsors.css";
-@import "./css/form-about.css";
-@import "./css/footer.css";
+@font-face { 
+    font-family: 'Roboto-Light';
+    src: url('./fonts/Roboto-Light.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Roboto-Medium';
+    src: url('./fonts/Roboto-Medium.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Roboto-Black';
+    src: url('./fonts/Roboto-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@import "./css/we-focus-on-header.css";
+@import "./css/features.css";
+@import "./css/lightning-fast-prototyping.css";
+@import "./css/lightning-gradient.css";
+@import "./css/partners.css";
+@import "./css/testimonials.css";
+@import "./css/pricing.css";
+@import "./css/contact-us.css";
+@import "./css/footer-screen.css";

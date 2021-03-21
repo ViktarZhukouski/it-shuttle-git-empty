@@ -1,0 +1,41 @@
+.lightning-gradient {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-family: 'Roboto-Light';
+    background:linear-gradient(15deg, rgba(239,39,121,1), rgba(120,52,190,1));
+    text-align: center;
+}
+.fingertips-little, .main-chapter,
+.subscribe-chapter, .available-chapter {
+    color: white;
+}
+.subscribe-chapter {
+    padding-top: 1em;
+}
+
+.email-gradient, .text-gradient {
+    border: transparent;
+    margin: 0.5em;
+    padding: 1em 3em 1em 3em;
+    border-radius: 25px;
+    outline: none;
+}
+.email-gradient {
+    width: 13%;
+}
+.text-gradient {
+    color: white;
+    text-align: center;
+    width: 19%;
+    background-color: rgba(239,39,121,1);
+}
+.text-gradient:active {
+    color: navy;
+}
+.email-subscribe-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
