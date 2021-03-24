@@ -23,6 +23,7 @@
     padding: 1em 2em 1em 2em;
     background-color: rgba(56,163,241,1);
     color: white;
+    cursor: pointer;
 }
 .lightning-button-try:hover {
     color: navy;
@@ -30,7 +31,7 @@
 .lightning-button-try:focus {
     outline: none;
 }
-@media only screen and (max-width:830px) {
+@media only screen and (max-width:1024px) {
     .lightning-image {
         margin: 0 6em 0 6em;
     }

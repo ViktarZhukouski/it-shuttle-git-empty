@@ -19,6 +19,7 @@
     padding: 1em 3em 1em 3em;
     border-radius: 25px;
     outline: none;
+    cursor: pointer;
 }
 .email-gradient {
     width: 13%;
@@ -31,6 +32,9 @@
 }
 .text-gradient:active {
     color: navy;
+}
+.email-gradient:hover, .text-gradient:hover {
+    background-color: paleturquoise;
 }
 .email-subscribe-input {
     display: flex;

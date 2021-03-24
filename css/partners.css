@@ -34,6 +34,7 @@
     background-color: rgba(56,163,241,1);
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 .partners-button-try:hover {
     color: navy;
@@ -41,7 +42,7 @@
 .partners-button-try:focus {
     outline: none;
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1024px) {
     .content__grid {
         display: flex;
         flex-direction: column;

@@ -18,6 +18,13 @@
 .names-list-item {
     padding-top: 1em;
 }
+.names-list-item a {
+    color: black;
+    text-decoration: none;
+}
+.names-list-item a:hover {
+    text-decoration: underline;
+}
 .footer-contact-inf {
     width: 20%;
 }
@@ -37,6 +44,13 @@
 .footer-inf-item span {
     padding-left: 5%;
     font-size: 13px;
+}
+.mailto-footer {
+    color: black;
+    text-decoration: none;
+}
+.mailto-footer:hover {
+    text-decoration: underline;
 }
 @media only screen and (max-width:1024px) {
     .names-list, .capture-list {

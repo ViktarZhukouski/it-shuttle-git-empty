@@ -39,6 +39,7 @@
     background-color: rgba(56,163,241,1);
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 .testimonials-button-more:hover {
     color: navy;

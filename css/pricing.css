@@ -52,6 +52,10 @@
     color: white;
     background:linear-gradient(45deg, rgba(239,39,121,1), rgba(120,52,190,1));
 }
+.pricing-order-item:hover .price-button-order {
+    background-color: white;
+    color: rgba(239, 39, 121, 1)
+}
 .pricing-block-order {
     margin-top: 5em;
     display: flex;
@@ -59,7 +63,7 @@
     justify-content: center;
     gap: 5%;
 }
-@media only screen and (max-width:830px) {
+@media only screen and (max-width:1024px) {
     .pricing-block-order {
         display: flex;
         flex-direction: column;

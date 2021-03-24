@@ -45,9 +45,13 @@
     padding: 1em 2em 1em 2em;
     border: transparent;
     border-radius: 25px;
+    cursor: pointer;
 }
 .main-input:focus, .button-try:focus, .main-subscribe:focus {
     outline: none;
+}
+.main-input:hover, .main-subscribe:hover {
+    background-color: paleturquoise;
 }
 .main-input.text {
     width: 60px;
@@ -108,7 +112,7 @@
 .burger {
     display: none;
 }
-@media only screen and (max-width:830px) {
+@media only screen and (max-width:1024px) {
     .focus-buttons, .focus-input, .focus-subscribe {
         display:none;
     }

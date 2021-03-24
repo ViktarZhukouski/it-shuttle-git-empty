@@ -74,6 +74,13 @@
     justify-content: center;
     gap: 5%;
 }
+.mailto {
+    color: white;
+    text-decoration: none;
+}
+.mailto:hover {
+    text-decoration: underline;
+}
 @media only screen and (max-width:1024px) {
     .contact-inf {
         display: flex;
